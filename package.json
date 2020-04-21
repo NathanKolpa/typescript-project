@@ -1,0 +1,16 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "A simple typescript project template",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "build": "tsc",
+    "watch": "nodemon --exec ts-node -- ./src/app.ts"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.9.0",
+    "typescript": "^3.8.3"
+  }
+}
